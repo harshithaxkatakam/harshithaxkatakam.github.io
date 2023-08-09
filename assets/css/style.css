@@ -801,12 +801,12 @@ section .container {
   position: relative;
   overflow: hidden;
   z-index: 1;
-  background: rgba(0, 0, 0, 0.6);
+  /* background: rgba(0, 0, 0, 0.6); */
 }
 
 .portfolio .portfolio-wrap::before {
   content: '';
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(256, 256, 256, 0.6);
   position: absolute;
   left: 30px;
   right: 30px;
