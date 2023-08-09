@@ -264,7 +264,7 @@ h6 {
 .mobile-nav a {
   display: block;
   position: relative;
-  color: var(--light-pink);
+  color: #27d655;
   padding: 10px 20px;
   font-weight: 400;
   outline: none;
@@ -273,7 +273,7 @@ h6 {
 .mobile-nav a:hover,
 .mobile-nav .active > a,
 .mobile-nav li:hover > a {
-  color: var(--cool-blue);
+  color: var(--white);
   font-weight: 600;
   text-decoration: none;
 }
