@@ -1,14 +1,9 @@
-## A clean, beautiful and responsive portfolio template for Developers!
-
-
-<p align="center">
+<!-- <p align="center">
   <kbd>
-<img src="https://user-images.githubusercontent.com/53429438/106779355-e9cd9e80-666c-11eb-9417-8a4b54441bc6.gif"></img>
+<img src=""></img>
   </kbd>
-</p>
+</p> -->
 
-
-Just change `src/portfolio.js` to get your personal portfolio. Customize portfolio theme by using your own color scheme globally in the  `src/_globalColor.scss` file. Feel free to use it as-is or personalize it as much as you want.
 
 ## Table of Contents
 - [Sections](#sections)
@@ -66,17 +61,10 @@ From your command line, clone and run developerFolio:
 
 ```bash
 # Clone this repository
-git clone https://github.com/saadpasta/developerFolio.git
+git clone https://github.com/harshithaxkatakam/my-portfolio.git
 
 # Go into the repository
-cd developerFolio
-
-# Setup default environment variables
-
-# For Linux
-cp env.example .env
-# For Windows
-copy env.example .env
+cd my-portfolio
 
 # Install dependencies
 npm install
