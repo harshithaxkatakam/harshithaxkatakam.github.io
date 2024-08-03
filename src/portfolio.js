@@ -312,7 +312,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Artifacts",
-          url: "https://drive.google.com/file/d/1z1ymkqlUaMgHBD7RFzIsIyVN4Uk2wLEV/view?usp=sharing"
+          url: ""//to do
         }
       ]
     },
@@ -334,7 +334,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Artifacts",
-          url: "https://docs.google.com/presentation/d/1UxmHWv2w-ItC6BTLd4quTFHnG-J1Px1d/edit?usp=sharing&ouid=108108251758322766356&rtpof=true&sd=true"
+          url: "https://drive.google.com/file/d/1nnOYsLVqbvwkQYglhqYLEKJKzx2mUNrC/view?usp=sharing"
         }
         //  you can add extra buttons here.
       ]
@@ -370,7 +370,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Artifacts",
-          url: "https://docs.google.com/presentation/d/1J73YDBu45QPhdO2dHgctkzrnEGYaApvZ/edit?usp=sharing&ouid=108108251758322766356&rtpof=true&sd=true"
+          url: "https://drive.google.com/file/d/1Upzs-iTtEak9YBL0wZ89RWTU2OrCpKoy/view?usp=sharing"
         }
         //  you can add extra buttons here.
       ]
@@ -382,7 +382,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visit Website",
-          url: "https://docs.google.com/presentation/d/1rdmWkaTcKeAeSTzLTeHcxFeiDJtzG9y6/edit?usp=sharing&ouid=108108251758322766356&rtpof=true&sd=true"
+          url: "https://cvr.ac.in/cse/"
         }
         //  you can add extra buttons here.
       ]
@@ -406,7 +406,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Artifacts",
-          url: ""
+          url: "https://github.com/harshithaxkatakam/to-do-list"
         }
         //  you can add extra buttons here.
       ]
@@ -481,7 +481,7 @@ const achievementSection = {
       footerLink: [
         {
           name: "Certification",
-          url: ""
+          url: "https://www.credly.com/badges/fc7b8c8e-9a33-4778-aabd-fa25b59cf856"
         },
       ]
     },
@@ -494,7 +494,7 @@ const achievementSection = {
       footerLink: [
         {
           name: "Certification",
-          url: ""
+          url: "https://www.coursera.org/account/accomplishments/verify/D9JT7UNMRGEZ"
         }
       ]
     },
