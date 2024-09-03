@@ -26,7 +26,7 @@ const greeting = {
     "A passionate Full Stack Software Developer 🚀🚀🚀 Proficient in Java, Spring Boot, React, and AWS, with expertise in developing scalable, secure applications and implementing CI/CD pipelines for efficient deployment. Committed to contributing to innovative projects aligned with the company's mission and values."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1VLM6t7BJQtmrnJYT2xDjICG9BXohrzMx/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1g0S8KsREsSSEpDBj_D_59xRV3YLGi5s8/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -157,7 +157,7 @@ const educationInfo = {
       logo: require("./assets/images/utdLogo.png"),
       subHeader: "Master of Business Administration",
       duration: "August 2022 - December 2024",
-      // desc: "Participated in the research of XXX and published 3 papers.",
+      desc: "Participated in the research of XXX and published 3 papers.",
       descBullets: [
         "CGPA: 3.72",
         "Dean's Excellence Scholar"
@@ -168,7 +168,7 @@ const educationInfo = {
       logo: require("./assets/images/utdLogo.png"),
       subHeader: "Master of Science in Management Information Systems",
       duration: "August 2022 - December 2024",
-      // desc: "Participated in the research of XXX and published 3 papers.",
+      desc: "Participated in the research of XXX and published 3 papers.",
       descBullets: [
         "CGPA: 3.97",
         "Dean's Excellence Scholar",
@@ -180,7 +180,7 @@ const educationInfo = {
       logo: require("./assets/images/jntuLogo.png"),
       subHeader: "Bachelor of Technology in Computer Science Engineering",
       duration: "August 2016 - August 2020",
-      // desc: "Ranked top 5% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
+      desc: "Ranked top 5% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
       descBullets: ["CGPA: 9.94"]
     }
   ]
@@ -213,51 +213,16 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Full Stack Engineer Intern",
-      company: "iPivot",
-      companylogo: require("./assets/images/ipivotLogo.webp"),
-      date: "September 2024 – Present",
-      desc: "",
-      descBullets: [
-        "Architected and developed a server-rendered web app with Next.js, optimizing page load times and enhancing SEO by 40%.",
-        "Enhanced code reliability and maintainability by implementing TypeScript, reducing bugs by 30% and streamlining development process.",
-        "Achieved 95% test coverage with React Testing Library and Jest, ensuring robust and reliable UI components.",
-        "Engineered AI-driven image recognition algorithms with Python and TensorFlow, achieving a 35% increase in image processing accuracy and a 20% reduction in analysis time.",
-        "Developed scalable and efficient GraphQL API to streamline data querying and mutation, improving API performance by 25%.",
-        "Streamlined the deployment process by integrating Next.js with CI/CD pipelines, enabling rapid deployment and continuous delivery of new features, resulting in a 50% faster release cycle.",
-        "Engineered a MySQL database schema to manage metadata, user information, and processed image data, ensuring data integrity and optimizing retrieval speeds by 30%."
-      ]
-    },
-    {
       role: "Graduate Teaching Assistant",
       company: "The University of Texas at Dallas",
       companylogo: require("./assets/images/utdLogo.png"),
       date: "August 2023 – December 2023",
       desc: "",
       descBullets: [
-        "Guided and provided technical mentorship to over 200 students across in System Analysis & Project Management, Python, and SAP Cloud Analytics, deepening their understanding of intricate software development concepts and project management methodologies.",
-        "Enabled hands-on learning by directing students through competitive full-stack development projects.",
-        "Optimized course coordination by closely collaborating with instructors, leading to 20% improvement in student satisfaction.",
-        "Designed a performance-tracking dashboard, which resulted in a 15% enhancement in identifying critical areas for student development.",
-        "Applied data visualization tools and Python libraries (e.g., Pandas, Matplotlib) to generate actionable insights.",
-        "Exhibited leadership in overseeing course-related activities, ensuring the seamless integration of technical concepts such as object-oriented programming (OOP) and cloud analytics into the curriculum."
-      ]
-    },
-    {
-      role: "Web Developer",
-      company: "The University of Texas at Dallas - AIMDB SOC",
-      companylogo: require("./assets/images/utdLogo.png"),
-      date: "January 2023 – May 2024",
-      desc: "",
-      descBullets: [
-        "Spearheaded a team of developers to revamp and upgrade the AIMDB website, boosting user engagement by 25%.",
-        "Crafted interactive web features to highlight AI and database projects, resulting in a 35% increase in site traffic.",
-        "Built and maintained RESTful APIs with Node.js and implemented JSON Web Token (JWT) authentication.",
-        "Streamlined workflows in CI/CD pipelines utilizing AWS CodePipeline, Code-Build, and Code Deploy.",
-        "Provided technical guidance and mentorship to the web development team, ensuring adherence to best practices in software engineering.",
-        "Applied performance optimization strategies to achieve maximum speed and scalability for the web application.",
-        "Collaborated with cross-functional teams to convert business requirements into robust technical solutions.",
-        "Managed the planning and execution of initiatives to advance AI and database technologies."
+        "Engaged with 200+ students across three courses: System Analysis and Project Management, OOPs Python, and SAP Cloud Analytics.",
+        "Provided comprehensive guidance on projects and assignments, fostering practical skills development in diverse subject areas.",
+        "Enhanced course organization and student satisfaction by 20% through effective coordination with instructors",
+        "Improved identification of student improvement areas by 15% through dashboard analytics."
       ]
     },
     {
@@ -267,12 +232,13 @@ const workExperiences = {
       date: "Aug 2021 – Aug 2022",
       desc: "",
       descBullets: [
-        "Directed a team of 5 in creating a resilient cancer cell diagnosis platform utilizing ReactJS, MUI, Redux, AWS, Azure AD, Node.js and SQL, achieved a 70% performance improvement by incorporating key features like Gamma Correction, report builder, OSD Viewer.",
-        "Boosted website efficiency by 30% through responsive design and enhanced page load times, significantly elevating user satisfaction.",
-        "Lowered infrastructure expenses by utilizing AWS services such as S3, Lambda, and Deployment for optimized resource management.",
-        "Developed and maintained an Applicant Tracking System application with the MERN stack, increasing application performance by 40%.",
-        "Adopted agile methodologies, leading to a 40% rise in project delivery speed and 25% quicker time-to-market for new features.",
-        "Sustained stakeholder satisfaction at 95% through clear communication via status updates and exemplary project outcomes."
+        "Led a team of 5 to develop a robust cancer cell diagnosis platform utilizing ReactJS, MUI, Redux, AWS, Azure AD, Node.js, SQL, achieved a 70% performance boost by implementing critical features such as Gamma Correction, report builder, OSD Viewer.",
+        "Enhanced website performance by 30% through responsive design and optimized page load times, elevating user satisfaction.",
+        "Directed the integration of developers employing Agile methodologies, to optimize operations, fostering cross functional team collaboration, resulting in a 30% productivity increase.",
+        "Reduced infrastructure costs by leveraging AWS services such as S3, Lambda, and Deployment for efficient resource management.",
+        "Built and maintained an Applicant Tracking System application using the MERN stack (MongoDB, Express.js, React, Node.js), increasing application performance by 40%.",
+        "Implemented agile methodologies, leading to a 40% rise in project delivery efficiency and 25% faster time-to-market for new features.",
+        "Maintained stakeholder satisfaction at 95% with clear communication via status updates and commendable project deliverables."
       ]
     },
     {
@@ -282,43 +248,32 @@ const workExperiences = {
       date: "Oct 2020 – Aug 2021",
       desc: "",
       descBullets: [
-        "Employed advanced Java skills to refactor legacy code, cutting response time by 20% and enhancing system efficiency by 15%.",
-        "Diagnosed and rectified 100+ frontend bugs using sophisticated debugging techniques, reducing software bugs by 25% and bolstering system stability.",
-        "Proficiently integrated RESTful APIs into frontend applications, enabling smooth data interaction with backend systems.",
-        "Enhanced RESTful APIs with Spring Boot and Hibernate, facilitating efficient data communication between frontend and backend.",
-        "Utilized Docker, leading to a 40% reduction in deployment time and a 50% improvement in the scalability of microservices architecture.",
-        "Administered and optimized MySQL databases, achieving a 21% boost in query performance.",
-        "Architected microservices, resulting in a 25% cut in infrastructure expenses through resource-efficient practices.",
-        "Implemented messaging and notification services, leading to a 40% rise in user engagement.",
-        "Streamlined business processes with orchestration and integration services, resulting in a 20% increase in operational efficiency.",
-        "Earned a Spot Award for demonstrating remarking quick learning capabilities and exceptional performance under pressure."
+        "Employed advanced Java skills to refactor legacy code, cutting response time by 20% and improving system efficiency by 15%.,",
+        "Identified and resolved 100+ frontend bugs using advanced debugging, reducing software bugs by 25% and enhancing system stability.",
+        "Proficiently integrated RESTful APIs into frontend apps, enabling seamless data exchange with backend systems.",
+        "Optimized RESTful APIs with Spring Boot and Hibernate, facilitating seamless data exchange between frontend and backend.",
+        "Implemented Docker, resulting in a 40% decrease in deployment time and a 50% increase in scalability of microservices architecture.",
+        "Managed and optimized MySQL databases, achieving a 25% improvement in query performance.",
+        "Architected microservices, leading to a 25% reduction in infrastructure costs through efficient resource utilization.",
+        "Implemented messaging and notification services, resulting in a 25% increase in user engagement.",
+        "Utilized orchestration and integration services to streamline business processes, resulting in a 20% increase in operational efficiency.",
+        "Awarded a Spot award for demonstrating exceptional quick learning abilities and outstanding performance under pressure.",
       ]
     },
     {
       role: "Associate Software Development Engineer",
       company: "Temenos",
       companylogo: require("./assets/images/temenosLogo1.png"),
-      date: "May 2019 – Oct 2020",
+      date: "May 2018 – Oct 2020",
       desc: "",
       descBullets: [
-        "Addressed 150+ bugs in a web application, within a specified timeframe, utilizing top-tier debugging and troubleshooting techniques.",
-        "Championed the development and deployment of cross-platform mobile apps using Kony Visualizer and Kony Fabric.",
-        "Created UI screens for a tablet-native application with Kony Visualizer, leading to a 20% enhancement in user experience.",
-        "Employed Git and Jenkins for effective version control and continuous integration in development workflows.",
-        "Directed the design and implementation of Java web services, on a Tomcat server, achieving a 20% reduction in response time.",
-        "Designed, tested and documented APIs using Postman, fostering seamless collaboration and cutting integration time by 15%.",
-        "Gained expertise in JIRA and Confluence for workflow management and project documentation, boosting collaboration efficiency by 40%."
-      ]
-    },
-    {
-      role: "Web Developer",
-      company: "CVR College of Engineering",
-      companylogo: require("./assets/images/cvrLogo.jpeg"),
-      date: "Jan 2019 – May 2019",
-      desc: "",
-      descBullets: [
-        "Integrated a 360-degree view feature into the college website, enhancing virtual campus tours and increasing online engagement by 50%. ",
-        "Contributed to all phases of the development lifecycle from initial conception to deployment and ongoing maintenance. ",
+        "Resolved 50+ bugs in a web app, within a specified timeframe, deploying best debugging and troubleshooting strategies.",
+        "Spearheaded the development and deployment of cross-platform mobile applications using Kony Visualizer and Kony Fabric.",
+        "Produced UI screens for tablet-native application using Kony Visualizer, leading to a 20% improvement in user experience.",
+        "Utilized Git and Jenkins for efficient version control and continuous integration in development workflows.",
+        "Led the design and implementation of Java web services, leveraging Tomcat server, resulting in a 20% improvement in response time.",
+        "Designed, tested and documented APIs using Postman, facilitating seamless collaboration among development teams and reducing integration time by 15%.",
+        "Acquired proficiency in JIRA and Confluence for workflow administration and project documentation, enhancing collaboration efficiency by 40%.",
       ]
     },
   ]
@@ -550,9 +505,8 @@ const achievementSection = {
       image: require("./assets/images/konyLogo.webp"),
       imageAlt: "Kony Logo",
       footerLink: [
-        {
-          name: "Certification",
-          url: ""
+        { name: "Certification", 
+          url: "" 
         }
       ]
     }
@@ -620,7 +574,7 @@ const podcastSection = {
 const resumeSection = {
   title: "Resume",
   subtitle: "Feel free to download my resume",
-  url: "https://drive.google.com/file/d/1VLM6t7BJQtmrnJYT2xDjICG9BXohrzMx/view?usp=sharing",
+  url: "https://drive.google.com/file/d/1g0S8KsREsSSEpDBj_D_59xRV3YLGi5s8/view?usp=sharing",
   display: true // Set false to hide this section, defaults to true
 };
 
