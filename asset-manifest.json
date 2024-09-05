@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.cf73dff7.css",
-    "main.js": "/static/js/main.218c5553.js",
+    "main.js": "/static/js/main.1aa74106.js",
     "static/css/990.c6a7ee28.chunk.css": "/static/css/990.c6a7ee28.chunk.css",
     "static/js/990.e1b60f92.chunk.js": "/static/js/990.e1b60f92.chunk.js",
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
@@ -22,17 +22,18 @@
     "static/media/fika.png": "/static/media/fika.a6d900d3d2f624899566.png",
     "static/media/tripShare.png": "/static/media/tripShare.b01d18b8aa5113e3e075.png",
     "static/media/polly.png": "/static/media/polly.46775f5384948ac6eedf.png",
+    "static/media/cvrLogo.jpeg": "/static/media/cvrLogo.71c328749a47530fd9b6.jpeg",
     "static/media/skill.svg": "/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
     "static/media/konyLogo.webp": "/static/media/konyLogo.64ffca9c604f938b8842.webp",
     "static/media/ipivotLogo.webp": "/static/media/ipivotLogo.445aa179df93b95c54ee.webp",
     "index.html": "/index.html",
     "main.cf73dff7.css.map": "/static/css/main.cf73dff7.css.map",
-    "main.218c5553.js.map": "/static/js/main.218c5553.js.map",
+    "main.1aa74106.js.map": "/static/js/main.1aa74106.js.map",
     "990.c6a7ee28.chunk.css.map": "/static/css/990.c6a7ee28.chunk.css.map",
     "990.e1b60f92.chunk.js.map": "/static/js/990.e1b60f92.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cf73dff7.css",
-    "static/js/main.218c5553.js"
+    "static/js/main.1aa74106.js"
   ]
 }
