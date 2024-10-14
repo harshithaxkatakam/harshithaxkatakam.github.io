@@ -244,10 +244,10 @@ const workExperiences = {
       ]
     },
     {
-      role: "Web Developer",
+      role: "Full Stack Engineer",
       company: "The University of Texas at Dallas - AIMDB SOC",
       companylogo: require("./assets/images/utdLogo.png"),
-      date: "January 2023 – May 2024",
+      date: "September 2022 – August 2024",
       desc: "",
       descBullets: [
         "Spearheaded a team of developers to revamp and upgrade the AIMDB website, boosting user engagement by 25%.",
@@ -261,7 +261,7 @@ const workExperiences = {
       ]
     },
     {
-      role: "Full Stack Developer",
+      role: "Full Stack Engineer",
       company: "iPivot",
       companylogo: require("./assets/images/ipivotLogo.webp"),
       date: "Aug 2021 – Aug 2022",
@@ -339,6 +339,17 @@ const bigProjects = {
   // subtitle: "SOME PROJECTS IN STARTUPS, COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
+      image: require("./assets/images/imaginify.png"),
+      projectName: "Imaginify",
+      projectDesc: "",
+      footerLink: [
+        {
+          name: "Artifacts",
+          url: "https://imaginify-erlknpa4i-harshithaxkatakams-projects.vercel.app/"
+        }
+      ]
+    },
+    {
       image: require("./assets/images/maple.jpg"),
       projectName: "Municipality Records Maintenance System",
       projectDesc: "",
@@ -357,7 +368,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Artifacts",
-          url: ""//to do
+          url: "https://rapidhire.ipivot.io/"
         }
       ]
     },
@@ -620,7 +631,7 @@ const podcastSection = {
 const resumeSection = {
   title: "Resume",
   subtitle: "Feel free to download my resume",
-  url: "https://drive.google.com/file/d/1VLM6t7BJQtmrnJYT2xDjICG9BXohrzMx/view?usp=sharing",
+  url: "https://drive.google.com/file/d/1YBRUh9mtQXdvxRr-q_eWEpCF_9ohEJi9/view?usp=sharing",
   display: true // Set false to hide this section, defaults to true
 };
 
