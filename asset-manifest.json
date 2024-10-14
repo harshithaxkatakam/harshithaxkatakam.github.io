@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.cf73dff7.css",
-    "main.js": "/static/js/main.f88ebcac.js",
+    "main.js": "/static/js/main.1a3d2fad.js",
     "static/css/990.c6a7ee28.chunk.css": "/static/css/990.c6a7ee28.chunk.css",
     "static/js/990.e1b60f92.chunk.js": "/static/js/990.e1b60f92.chunk.js",
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
@@ -28,12 +28,12 @@
     "static/media/ipivotLogo.webp": "/static/media/ipivotLogo.445aa179df93b95c54ee.webp",
     "index.html": "/index.html",
     "main.cf73dff7.css.map": "/static/css/main.cf73dff7.css.map",
-    "main.f88ebcac.js.map": "/static/js/main.f88ebcac.js.map",
+    "main.1a3d2fad.js.map": "/static/js/main.1a3d2fad.js.map",
     "990.c6a7ee28.chunk.css.map": "/static/css/990.c6a7ee28.chunk.css.map",
     "990.e1b60f92.chunk.js.map": "/static/js/990.e1b60f92.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cf73dff7.css",
-    "static/js/main.f88ebcac.js"
+    "static/js/main.1a3d2fad.js"
   ]
 }
