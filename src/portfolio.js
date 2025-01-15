@@ -26,7 +26,7 @@ const greeting = {
     "A passionate Full Stack Software Developer 🚀🚀🚀 Proficient in Java, Spring Boot, React, and AWS, with expertise in developing scalable, secure applications and implementing CI/CD pipelines for efficient deployment. Committed to contributing to innovative projects aligned with the company's mission and values."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1VLM6t7BJQtmrnJYT2xDjICG9BXohrzMx/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1k2O6z14lTmTNLWh92YCVAOYXu9zhgo1t/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -56,10 +56,6 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "java",
-      fontAwesomeClassname: "fab fa-java"
-    },
-    {
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
     },
@@ -70,10 +66,6 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "css3",
       fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
     },
     {
       skillName: "JavaScript",
@@ -88,20 +80,12 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
       skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database"
     },
     {
       skillName: "aws",
       fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
     },
     {
       skillName: "docker",
@@ -116,33 +100,49 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-jenkins"
     },
     {
-      skillName: "kafka",
-      fontAwesomeClassname: "fab fa-kafka"
+      skillName: "java",
+      fontAwesomeClassname: "fab fa-java"
     },
-    {
-      skillName: "kubernetes",
-      fontAwesomeClassname: "fab fa-kubernetes"
-    },
-    {
-      skillName: "redux",
-      fontAwesomeClassname: "fab fa-redux"
-    },
-    {
-      skillName: "mongodb",
-      fontAwesomeClassname: "fab fa-mongo-db"
-    },
-    {
-      skillName: "figma",
-      fontAwesomeClassname: "fab fa-figma"
-    },
-    {
-      skillName: "invision",
-      fontAwesomeClassname: "fab fa-invision"
-    },
-    {
-      skillName: "jira",
-      fontAwesomeClassname: "fab fa-jira"
-    },
+    // {
+    //   skillName: "Jira",
+    //   fontAwesomeClassname: "fab fa-jira"
+    // },
+    // {
+    //   skillName: "Confluence",
+    //   fontAwesomeClassname: "fab fa-confluence"
+    // },
+    // {
+    //   skillName: "jenkins",
+    //   fontAwesomeClassname: "fab fa-jenkins"
+    // },
+    // {
+    //   skillName: "kafka",
+    //   fontAwesomeClassname: "fab fa-kafka"
+    // },
+    // {
+    //   skillName: "kubernetes",
+    //   fontAwesomeClassname: "fab fa-kubernetes"
+    // },
+    // {
+    //   skillName: "redux",
+    //   fontAwesomeClassname: "fab fa-redux"
+    // },
+    // {
+    //   skillName: "mongodb",
+    //   fontAwesomeClassname: "fab fa-mongo-db"
+    // },
+    // {
+    //   skillName: "figma",
+    //   fontAwesomeClassname: "fab fa-figma"
+    // },
+    // {
+    //   skillName: "invision",
+    //   fontAwesomeClassname: "fab fa-invision"
+    // },
+    // {
+    //   skillName: "jira",
+    //   fontAwesomeClassname: "fab fa-jira"
+    // },
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -159,7 +159,7 @@ const educationInfo = {
       duration: "August 2022 - December 2024",
       // desc: "Participated in the research of XXX and published 3 papers.",
       descBullets: [
-        "CGPA: 3.72",
+        "CGPA: 3.74",
         "Dean's Excellence Scholar"
       ]
     },
@@ -170,7 +170,7 @@ const educationInfo = {
       duration: "August 2022 - December 2024",
       // desc: "Participated in the research of XXX and published 3 papers.",
       descBullets: [
-        "CGPA: 3.97",
+        "CGPA: 3.94",
         "Dean's Excellence Scholar",
         "Summa Cum Laude"
       ]
@@ -181,7 +181,7 @@ const educationInfo = {
       subHeader: "Bachelor of Technology in Computer Science Engineering",
       duration: "August 2016 - August 2020",
       // desc: "Ranked top 5% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["CGPA: 9.94"]
+      descBullets: ["CGPA: 3.95"]
     }
   ]
 };
@@ -213,102 +213,81 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Full Stack Engineer Intern",
+      role: "Full Stack Engineer",
       company: "iPivot",
       companylogo: require("./assets/images/ipivotLogo.webp"),
-      date: "September 2024 – Present",
+      date: "September 2024 – December 2024",
       desc: "",
       descBullets: [
-        "Architected and developed a server-rendered web app with Next.js, optimizing page load times and enhancing SEO by 40%.",
-        "Enhanced code reliability and maintainability by implementing TypeScript, reducing bugs by 30% and streamlining development process.",
-        "Achieved 95% test coverage with React Testing Library and Jest, ensuring robust and reliable UI components.",
-        "Engineered AI-driven image recognition algorithms with Python and TensorFlow, achieving a 35% increase in image processing accuracy and a 20% reduction in analysis time.",
-        "Developed scalable and efficient GraphQL API to streamline data querying and mutation, improving API performance by 25%.",
-        "Streamlined the deployment process by integrating Next.js with CI/CD pipelines, enabling rapid deployment and continuous delivery of new features, resulting in a 50% faster release cycle.",
-        "Engineered a MySQL database schema to manage metadata, user information, and processed image data, ensuring data integrity and optimizing retrieval speeds by 30%."
+        "Architected an Applicant Tracking System using Next.js, TailwindCSS, improving SEO by 40% and load speed by 30%",
+        "Improved code quality and maintainability by adopting TypeScript, reducing production bugs by 37%",
+        "Engineered reusable UI components using React with Redux, expediting feature development by 20%",
+        "Achieved 95% test coverage with React Testing Library and Jest, ensuring robust and reliable UI components",
+        "Automated CI/CD pipelines using AWS CodePipeline, reducing deployment time by 50%",
+        "Optimized web performance using lazy loading and code splitting, ensuring robust application behavior",
+        "Led troubleshooting efforts to resolve complex production issues, ensuring minimal downtime",
+        "Designed RESTful APIs using Express.js and MongoDB, optimizing queries - increasing data retrieval efficiency by 25%"
       ]
-    },
-    {
-      role: "Graduate Teaching Assistant",
-      company: "The University of Texas at Dallas",
-      companylogo: require("./assets/images/utdLogo.png"),
-      date: "August 2023 – December 2023",
-      desc: "",
-      descBullets: [
-        "Guided and provided technical mentorship to over 200 students across in System Analysis & Project Management, Python, and SAP Cloud Analytics, deepening their understanding of intricate software development concepts and project management methodologies.",
-        "Enabled hands-on learning by directing students through competitive full-stack development projects.",
-        "Optimized course coordination by closely collaborating with instructors, leading to 20% improvement in student satisfaction.",
-        "Designed a performance-tracking dashboard, which resulted in a 15% enhancement in identifying critical areas for student development.",
-        "Applied data visualization tools and Python libraries (e.g., Pandas, Matplotlib) to generate actionable insights.",
-        "Exhibited leadership in overseeing course-related activities, ensuring the seamless integration of technical concepts such as object-oriented programming (OOP) and cloud analytics into the curriculum."
-      ]
+
     },
     {
       role: "Full Stack Engineer",
       company: "The University of Texas at Dallas - AIMDB SOC",
       companylogo: require("./assets/images/utdLogo.png"),
-      date: "September 2022 – August 2024",
+      date: "September 2022 – May 2024",
       desc: "",
       descBullets: [
-        "Spearheaded a team of developers to revamp and upgrade the AIMDB website, boosting user engagement by 25%.",
-        "Crafted interactive web features to highlight AI and database projects, resulting in a 35% increase in site traffic.",
-        "Built and maintained RESTful APIs with Node.js and implemented JSON Web Token (JWT) authentication.",
-        "Streamlined workflows in CI/CD pipelines utilizing AWS CodePipeline, Code-Build, and Code Deploy.",
-        "Provided technical guidance and mentorship to the web development team, ensuring adherence to best practices in software engineering.",
-        "Applied performance optimization strategies to achieve maximum speed and scalability for the web application.",
-        "Collaborated with cross-functional teams to convert business requirements into robust technical solutions.",
-        "Managed the planning and execution of initiatives to advance AI and database technologies."
+        "Redesigned and modernized AIMDB’s website, leading to a 25% increase in user engagement",
+        "Built scalable and interactive web features to showcase AI and database projects using Typescript, Express, React, and MongoDB, increasing site traffic by 35%",
+        "Streamlined deployment using AWS Code-Pipeline, Code-Build, and Code-Deploy, improving release efficiency by 40%",
+        "Implemented performance optimization techniques to ensure maximum speed and scalability of the web application",
+        "Collaborated with cross-functional teams to translate business requirements into technical solutions",
+        "Mentored 200+ students in software development & project management, contributing to a 7% rise in class average",
+        "Helped students build capstone projects using React and Express.js, showcasing real-world problem-solving skills",
+        "Led seminars and workshops on the latest advancements in MERN Stack development, catering to students and professionals with diverse backgrounds and international origins",
+        "Conducted code reviews and enforced coding standards to ensure code quality and maintainability",
+        "Implemented unit testing and end-to-end testing frameworks to ensure application reliability and performance",
+        "Attained the highest (5/5) annual Teaching Assistant (TA) performance rating from the supervising professor"
       ]
     },
     {
-      role: "Full Stack Engineer",
+      role: "Senior Full Stack Engineer",
       company: "iPivot",
       companylogo: require("./assets/images/ipivotLogo.webp"),
       date: "Aug 2021 – Aug 2022",
       desc: "",
       descBullets: [
-        "Directed a team of 5 in creating a resilient cancer cell diagnosis platform utilizing ReactJS, MUI, Redux, AWS, Azure AD, Node.js and SQL, achieved a 70% performance improvement by incorporating key features like Gamma Correction, report builder, OSD Viewer.",
-        "Boosted website efficiency by 30% through responsive design and enhanced page load times, significantly elevating user satisfaction.",
-        "Lowered infrastructure expenses by utilizing AWS services such as S3, Lambda, and Deployment for optimized resource management.",
-        "Developed and maintained an Applicant Tracking System application with the MERN stack, increasing application performance by 40%.",
-        "Adopted agile methodologies, leading to a 40% rise in project delivery speed and 25% quicker time-to-market for new features.",
-        "Sustained stakeholder satisfaction at 95% through clear communication via status updates and exemplary project outcomes."
+        "Directed a team of 5 developers in building a resilient cancer cell diagnosis platform using ReactJS, Node.js, TypeScript, and AWS, improving diagnostic accuracy",
+        "Successfully migrated from .Net to React development environment within a two-month timeframe",
+        "Boosted web performance by 30% through responsive design, lazy loading, and optimizing API calls",
+        "Built and deployed scalable backend services with Node.js and Express.js, ensuring seamless data handling and front-end integration",
+        "Reduced infrastructure costs by 20% through strategic use of AWS S3, Lambda, and CloudFront",
+        "Designed a robust authentication system integrating Azure AD and AWS Cognito, boosting platform security",
+        "Automated deployment processes using Terraform and Jenkins, cutting manual deployment time by 50%",
+        "Enhanced database performance by 40% through query optimization and indexing",
+        "Demonstrated strong collaboration and stakeholder management by working with cross-functional teams to translate business requirements into technical solutions"
       ]
+
     },
     {
-      role: "Software Development Engineer",
+      role: "Full Stack Engineer",
       company: "Temenos",
       companylogo: require("./assets/images/temenosLogo1.png"),
-      date: "Oct 2020 – Aug 2021",
+      date: "May 2019 – Aug 2021",
       desc: "",
       descBullets: [
-        "Employed advanced Java skills to refactor legacy code, cutting response time by 20% and enhancing system efficiency by 15%.",
-        "Diagnosed and rectified 100+ frontend bugs using sophisticated debugging techniques, reducing software bugs by 25% and bolstering system stability.",
-        "Proficiently integrated RESTful APIs into frontend applications, enabling smooth data interaction with backend systems.",
-        "Enhanced RESTful APIs with Spring Boot and Hibernate, facilitating efficient data communication between frontend and backend.",
-        "Utilized Docker, leading to a 40% reduction in deployment time and a 50% improvement in the scalability of microservices architecture.",
-        "Administered and optimized MySQL databases, achieving a 21% boost in query performance.",
-        "Architected microservices, resulting in a 25% cut in infrastructure expenses through resource-efficient practices.",
-        "Implemented messaging and notification services, leading to a 40% rise in user engagement.",
-        "Streamlined business processes with orchestration and integration services, resulting in a 20% increase in operational efficiency.",
-        "Earned a Spot Award for demonstrating remarking quick learning capabilities and exceptional performance under pressure."
+        "Developed document management UI components and microservices for retail banking using Kony Visualizer, Kony Fabric, Core Java and Spring Boot, ensuring secure handling of customer documents",
+        "Achieved 21% improvement in query performance by optimizing MySQL databases",
+        "Containerized microservices using Docker, resulting in reduced deployment time by 40% and improved scalability",
+        "Implemented RESTful APIs for account statement generation, reducing manual reporting time by 40%",
+        "Built 30 cross-platform UI components using Kony Visualizer, delivering consistent user experience across devices",
+        "Utilized Spring Boot and Hibernate frameworks in integrating RESTful APIs into 15+ banking applications",
+        "Automated CI/CD pipelines using Jenkins, improving deployment speed and minimizing downtime",
+        "Identified and resolved 150+ critical UI bugs under strict deadlines, ensuring smooth functionality and user experience",
+        "Collaborated with QA and product teams to conduct end-to-end testing, improving software quality",
+        "Developed a comprehensive dashboard using React, MongoDB, and Express.js to track code coverage and analyze test suites across all teams, enhancing code quality and performance monitoring"
       ]
-    },
-    {
-      role: "Associate Software Development Engineer",
-      company: "Temenos",
-      companylogo: require("./assets/images/temenosLogo1.png"),
-      date: "May 2019 – Oct 2020",
-      desc: "",
-      descBullets: [
-        "Addressed 150+ bugs in a web application, within a specified timeframe, utilizing top-tier debugging and troubleshooting techniques.",
-        "Championed the development and deployment of cross-platform mobile apps using Kony Visualizer and Kony Fabric.",
-        "Created UI screens for a tablet-native application with Kony Visualizer, leading to a 20% enhancement in user experience.",
-        "Employed Git and Jenkins for effective version control and continuous integration in development workflows.",
-        "Directed the design and implementation of Java web services, on a Tomcat server, achieving a 20% reduction in response time.",
-        "Designed, tested and documented APIs using Postman, fostering seamless collaboration and cutting integration time by 15%.",
-        "Gained expertise in JIRA and Confluence for workflow management and project documentation, boosting collaboration efficiency by 40%."
-      ]
+
     },
     {
       role: "Web Developer",
@@ -631,7 +610,7 @@ const podcastSection = {
 const resumeSection = {
   title: "Resume",
   subtitle: "Feel free to download my resume",
-  url: "https://drive.google.com/file/d/1YBRUh9mtQXdvxRr-q_eWEpCF_9ohEJi9/view?usp=sharing",
+  url: "https://drive.google.com/file/d/1k2O6z14lTmTNLWh92YCVAOYXu9zhgo1t/view?usp=sharing",
   display: true // Set false to hide this section, defaults to true
 };
 
