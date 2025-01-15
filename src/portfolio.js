@@ -157,7 +157,7 @@ const educationInfo = {
       logo: require("./assets/images/utdLogo.png"),
       subHeader: "Master of Business Administration",
       duration: "August 2022 - December 2024",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      // desc: "Participated in the research of XXX and published 3 papers.",
       descBullets: [
         "CGPA: 3.74",
         "Dean's Excellence Scholar"
@@ -168,7 +168,7 @@ const educationInfo = {
       logo: require("./assets/images/utdLogo.png"),
       subHeader: "Master of Science in Management Information Systems",
       duration: "August 2022 - December 2024",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      // desc: "Participated in the research of XXX and published 3 papers.",
       descBullets: [
         "CGPA: 3.94",
         "Dean's Excellence Scholar",
@@ -286,7 +286,6 @@ const workExperiences = {
         "Collaborated with QA and product teams to conduct end-to-end testing, improving software quality",
         "Developed a comprehensive dashboard using React, MongoDB, and Express.js to track code coverage and analyze test suites across all teams, enhancing code quality and performance monitoring"
       ]
-
     },
     {
       role: "Web Developer",
@@ -295,13 +294,8 @@ const workExperiences = {
       date: "Jan 2019 – May 2019",
       desc: "",
       descBullets: [
-        "Resolved 50+ bugs in a web app, within a specified timeframe, deploying best debugging and troubleshooting strategies.",
-        "Spearheaded the development and deployment of cross-platform mobile applications using Kony Visualizer and Kony Fabric.",
-        "Produced UI screens for tablet-native application using Kony Visualizer, leading to a 20% improvement in user experience.",
-        "Utilized Git and Jenkins for efficient version control and continuous integration in development workflows.",
-        "Led the design and implementation of Java web services, leveraging Tomcat server, resulting in a 20% improvement in response time.",
-        "Designed, tested and documented APIs using Postman, facilitating seamless collaboration among development teams and reducing integration time by 15%.",
-        "Acquired proficiency in JIRA and Confluence for workflow administration and project documentation, enhancing collaboration efficiency by 40%.",
+        "Integrated a 360-degree view feature into the college website, enhancing virtual campus tours and increasing online engagement by 50%. ",
+        "Contributed to all phases of the development lifecycle from initial conception to deployment and ongoing maintenance. ",
       ]
     },
   ]
@@ -322,6 +316,17 @@ const bigProjects = {
   // subtitle: "SOME PROJECTS IN STARTUPS, COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
+      image: require("./assets/images/imaginify.png"),
+      projectName: "Imaginify",
+      projectDesc: "",
+      footerLink: [
+        {
+          name: "Artifacts",
+          url: "https://imaginify-erlknpa4i-harshithaxkatakams-projects.vercel.app/"
+        }
+      ]
+    },
+    {
       image: require("./assets/images/maple.jpg"),
       projectName: "Municipality Records Maintenance System",
       projectDesc: "",
@@ -340,7 +345,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Artifacts",
-          url: ""//to do
+          url: "https://rapidhire.ipivot.io/"
         }
       ]
     },
@@ -533,8 +538,9 @@ const achievementSection = {
       image: require("./assets/images/konyLogo.webp"),
       imageAlt: "Kony Logo",
       footerLink: [
-        { name: "Certification", 
-          url: "" 
+        {
+          name: "Certification",
+          url: ""
         }
       ]
     }
