@@ -22,11 +22,16 @@ const illustration = {
 const greeting = {
   username: "Harshitha Katakam",
   title: "Hi all, I'm Harshitha",
-  subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀🚀🚀 Proficient in Java, Spring Boot, React, and AWS, with expertise in developing scalable, secure applications and implementing CI/CD pipelines for efficient deployment. Committed to contributing to innovative projects aligned with the company's mission and values."
-  ),
-  resumeLink:
-    "https://drive.google.com/file/d/1k2O6z14lTmTNLWh92YCVAOYXu9zhgo1t/view?usp=sharing", // Set to empty to hide the button
+  subTitle: [
+    emoji("✨ Full Stack Software Engineer"),
+    emoji("✨ Expert in building scalable, high-performance apps"),
+    emoji("✨ Creating seamless digital experiences"), 
+    emoji("✨ Solving complex engineering challenges"),
+    emoji("✨ Contributing to impactful tech solutions."),
+    emoji("✨ Building future, one line of code at a time!")
+  ],
+resumeLink:
+"https://drive.google.com/file/d/1k2O6z14lTmTNLWh92YCVAOYXu9zhgo1t/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -44,7 +49,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "Crafting seamless digital experiences with cutting-edge technology.",
   skills: [
     emoji("⚡ Expert in ReactJS with a strong background in building dynamic and efficient UI."),
     emoji("⚡ Proven ability to lead product development and manage projects from concept to completion, demonstrating exceptional organizational and strategic planning skills."),
@@ -189,23 +194,34 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
-  experience: [
-    {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
-    },
-    {
-      Stack: "Backend",
-      progressPercentage: "70%"
-    },
-    {
-      Stack: "Programming",
-      progressPercentage: "60%"
-    }
+  viewSkillBars: true, // Set it to true to show Proficiency Section
+  coreExpertise: [
+    emoji("⚡ Frontend Development: Crafting dynamic and responsive UIs using React.js, Next.js, TypeScript, and TailwindCSS."),
+    emoji("⚡ Backend Development: Architecting and optimizing RESTful APIs, GraphQL, and microservices using Node.js, Python, and Java (Spring Boot)."),
+    emoji("☁️ Cloud & DevOps: Deploying robust solutions on AWS, GCP, and Azure, leveraging Docker, Kubernetes, Terraform, and CI/CD pipelines (Jenkins, GitHub Actions, AWS CodePipeline)."),
+    emoji("🤖 AI & Automation: Implementing AI-powered systems, data processing pipelines, and workflow automation for increased efficiency."),
+    emoji("🔒 Security & Performance: Ensuring high availability, scalability, and security with best practices like OAuth 2.0, JWT, and role-based access control (RBAC).")
   ],
-  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+  whatILoveDoing: [
+    emoji("🧠  Solving complex engineering challenges with innovative and scalable solutions."),
+    emoji("🚀  Building end-to-end products—from concept and architecture to deployment and optimization."),
+    emoji("⚙️  Optimizing system performance by reducing latency, enhancing efficiency, and implementing automation."),
+    emoji("🤝  Collaborating with cross-functional teams to drive seamless product development."),
+    emoji("👨‍🏫  Mentoring and leading engineers to foster innovation and technical excellence.")
+  ],
+  industries: [
+    emoji("💳  Fintech & Banking: Core banking systems, transaction processing, security compliance."),
+    emoji("🏥  Healthcare & AI: AI-driven healthcare automation and data processing."),
+    emoji("🛒  E-commerce & SaaS: Scalable SaaS platforms, cloud-based microservices.")
+  ],
+  passion: [
+    emoji("🔥  Pushing the boundaries of web development, AI, and cloud computing."),
+    emoji("🎯  Creating impactful, intuitive, and high-performance software."),
+    emoji("💡  Innovating with cutting-edge technologies and frameworks.")
+  ],
+  displayCodersrank: true // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
+
 
 // Work experience section
 
@@ -291,7 +307,7 @@ const workExperiences = {
     {
       role: "Web Developer",
       company: "CVR College of Engineering",
-      companylogo: require("./assets/images/cvrLogo.jpeg"),
+      companylogo: require("./assets/images/cvr.jpeg"),
       date: "Jan 2019 – May 2019",
       desc: "",
       descBullets: [
@@ -380,6 +396,18 @@ const bigProjects = {
       ]
     },
     {
+      image: require("./assets/images/sap.png"),
+      projectName: "Consumer Lending Application",
+      projectDesc: "",
+      footerLink: [
+        {
+          name: "Artifacts",
+          url: "https://drive.google.com/file/d/1SDMvjZOxZEk8z8QzMJ4yAcbea9-J9NEQ/view?usp=sharing"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
       image: require("./assets/images/esp.jpg"),
       projectName: "Employee Sharing Platform",
       projectDesc: "",
@@ -404,7 +432,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/cvr.png"),
+      image: require("./assets/images/cvr.jpeg"),
       projectName: "CVR CSE Website",
       projectDesc: "",
       footerLink: [
@@ -434,7 +462,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Artifacts",
-          url: "https://github.com/harshithaxkatakam/to-do-list"
+          url: "https://github.com/harshithaxkatakam/to-do-list-mern"
         }
         //  you can add extra buttons here.
       ]
@@ -469,8 +497,12 @@ const bigProjects = {
       projectDesc: "",
       footerLink: [
         {
+          name: "Github",
+          url: "https://github.com/harshithaxkatakam/polly-app"
+        },
+        {
           name: "Artifacts",
-          url: "https://github.com/harshithaxkatakam/text-to-speech"
+          url: "https://polly-app-harshithaxkatakams-projects.vercel.app/"
         }
         //  you can add extra buttons here.
       ]
@@ -533,8 +565,9 @@ const achievementSection = {
       image: require("./assets/images/konyLogo.webp"),
       imageAlt: "Kony Logo",
       footerLink: [
-        { name: "Certification", 
-          url: "" 
+        {
+          name: "Certification",
+          url: ""
         }
       ]
     }
