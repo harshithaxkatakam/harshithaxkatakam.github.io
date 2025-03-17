@@ -25,13 +25,13 @@ const greeting = {
   subTitle: [
     emoji("✨ Full Stack Software Engineer"),
     emoji("✨ Expert in building scalable, high-performance apps"),
-    emoji("✨ Creating seamless digital experiences"), 
+    emoji("✨ Creating seamless digital experiences"),
     emoji("✨ Solving complex engineering challenges"),
     emoji("✨ Contributing to impactful tech solutions."),
     emoji("✨ Building future, one line of code at a time!")
   ],
-resumeLink:
-"https://drive.google.com/file/d/1k2O6z14lTmTNLWh92YCVAOYXu9zhgo1t/view?usp=sharing", // Set to empty to hide the button
+  resumeLink:
+    "https://drive.google.com/file/d/18ArW4Xx-U9El7itpPiI-mwcUiIfaWflG/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -232,95 +232,67 @@ const workExperiences = {
       role: "Full Stack Engineer",
       company: "iPivot",
       companylogo: require("./assets/images/ipivotLogo.webp"),
-      date: "September 2024 – December 2024",
+      date: "January 2024 – December 2024",
       desc: "",
       descBullets: [
-        "Architected an Applicant Tracking System using Next.js, TailwindCSS, improving SEO by 40% and load speed by 30%",
-        "Improved code quality and maintainability by adopting TypeScript, reducing production bugs by 37%",
-        "Engineered reusable UI components using React with Redux, expediting feature development by 20%",
-        "Achieved 95% test coverage with React Testing Library and Jest, ensuring robust and reliable UI components",
-        "Automated CI/CD pipelines using AWS CodePipeline, reducing deployment time by 50%",
-        "Optimized web performance using lazy loading and code splitting, ensuring robust application behavior",
-        "Led troubleshooting efforts to resolve complex production issues, ensuring minimal downtime",
-        "Designed RESTful APIs using Express.js and MongoDB, optimizing queries - increasing data retrieval efficiency by 25%"
+        "Led a team of 5 to develop a high-performance diagnosis platform using React.js, TypeScript, and Node.js, reducing load times by 30%",
+        "Designed a responsive frontend with Next.js and TailwindCSS, enhancing user experience and operational efficiency by 70%",
+        "Optimized frontend performance with SSR, caching, API batching, and Redux, cutting latency by 40%",
+        "Built API-driven solutions with RESTful and GraphQL APIs, enabling real-time case tracking and efficient query performance",
+        "Developed a robust RBAC authentication system using Azure AD and AWS Cognito, improving platform security by 27%",
+        "Implemented Redis caching for optimized performance, significantly reducing API response times",
+        "Automated backend CI/CD pipelines using Docker, Kubernetes, and GitHub Actions, reducing release cycles by 50%",
+        "Achieved 95% test coverage with Jest, reducing bugs by 35%",
+        "Collaborated with cross-functional teams to deliver scalable, data-driven web applications",
+        "Participated in architectural decisions and code reviews to maintain high-quality, scalable solutions"
       ]
-
     },
     {
       role: "Full Stack Engineer",
       company: "The University of Texas at Dallas - AIMDB SOC",
       companylogo: require("./assets/images/utdLogo.png"),
-      date: "September 2022 – May 2024",
+      date: "September 2022 – December 2023",
       desc: "",
       descBullets: [
-        "Redesigned and modernized AIMDB’s website, leading to a 25% increase in user engagement",
-        "Built scalable and interactive web features to showcase AI and database projects using Typescript, Express, React, and MongoDB, increasing site traffic by 35%",
-        "Streamlined deployment using AWS Code-Pipeline, Code-Build, and Code-Deploy, improving release efficiency by 40%",
-        "Implemented performance optimization techniques to ensure maximum speed and scalability of the web application",
-        "Collaborated with cross-functional teams to translate business requirements into technical solutions",
-        "Mentored 200+ students in software development & project management, contributing to a 7% rise in class average",
-        "Helped students build capstone projects using React and Express.js, showcasing real-world problem-solving skills",
-        "Led seminars and workshops on the latest advancements in MERN Stack development, catering to students and professionals with diverse backgrounds and international origins",
-        "Conducted code reviews and enforced coding standards to ensure code quality and maintainability",
-        "Implemented unit testing and end-to-end testing frameworks to ensure application reliability and performance",
-        "Attained the highest (5/5) annual Teaching Assistant (TA) performance rating from the supervising professor"
-      ]
-    },
-    {
-      role: "Senior Full Stack Engineer",
-      company: "iPivot",
-      companylogo: require("./assets/images/ipivotLogo.webp"),
-      date: "Aug 2021 – Aug 2022",
-      desc: "",
-      descBullets: [
-        "Directed a team of 5 developers in building a resilient cancer cell diagnosis platform using ReactJS, Node.js, TypeScript, and AWS, improving diagnostic accuracy",
-        "Successfully migrated from .Net to React development environment within a two-month timeframe",
-        "Boosted web performance by 30% through responsive design, lazy loading, and optimizing API calls",
-        "Built and deployed scalable backend services with Node.js and Express.js, ensuring seamless data handling and front-end integration",
-        "Reduced infrastructure costs by 20% through strategic use of AWS S3, Lambda, and CloudFront",
-        "Designed a robust authentication system integrating Azure AD and AWS Cognito, boosting platform security",
-        "Automated deployment processes using Terraform and Jenkins, cutting manual deployment time by 50%",
-        "Enhanced database performance by 40% through query optimization and indexing",
-        "Demonstrated strong collaboration and stakeholder management by working with cross-functional teams to translate business requirements into technical solutions"
+        "Developed full-stack applications with React, TypeScript, and Node.js, increasing user engagement by 40%",
+        "Integrated observability tools like Prometheus and Grafana, enhancing system monitoring and reducing downtime",
+        "Designed and implemented secure RESTful & GraphQL APIs with OAuth and JWT authentication",
+        "Optimized PostgreSQL database queries, improving retrieval processes by 20%",
+        "Mentored 200+ junior engineers in Java, React, Python, and PostgreSQL, strengthening software development capabilities"
       ]
     },
     {
       role: "Full Stack Engineer",
-      company: "Temenos",
-      companylogo: require("./assets/images/temenosLogo1.png"),
-      date: "May 2019 – Aug 2021",
+      company: "iPivot",
+      companylogo: require("./assets/images/ipivotLogo.webp"),
+      date: "August 2021 – August 2022",
       desc: "",
       descBullets: [
-        "Developed document management UI components and microservices for retail banking using Kony Visualizer, Kony Fabric, Core Java and Spring Boot, ensuring secure handling of customer documents",
-        "Achieved 21% improvement in query performance by optimizing MySQL databases",
-        "Containerized microservices using Docker, resulting in reduced deployment time by 40% and improved scalability",
-        "Implemented RESTful APIs for account statement generation, reducing manual reporting time by 40%",
-        "Built 30 cross-platform UI components using Kony Visualizer, delivering consistent user experience across devices",
-        "Utilized Spring Boot and Hibernate frameworks in integrating RESTful APIs into 15+ banking applications",
-        "Automated CI/CD pipelines using Jenkins, improving deployment speed and minimizing downtime",
-        "Identified and resolved 150+ critical UI bugs under strict deadlines, ensuring smooth functionality and user experience",
-        "Collaborated with QA and product teams to conduct end-to-end testing, improving software quality",
-        "Developed a comprehensive dashboard using React, MongoDB, and Express.js to track code coverage and analyze test suites across all teams, enhancing code quality and performance monitoring"
+        "Developed an applicant tracking system using React, MongoDB, and Node.js, improving hiring efficiency by 40%",
+        "Maintained serverless microservices using AWS (DynamoDB, API Gateway, S3), reducing operational overhead by 60%",
+        "Optimized REST APIs and microservices with Node.js, Express.js, and Java (Spring Boot), boosting backend efficiency by 40%",
+        "Integrated Firebase Authentication and JWT-based authentication, improving security and user management",
+        "Implemented React Router and Redux for state management, enhancing navigation and data flow",
+        "Resolved critical production issues, minimizing downtime and improving system reliability by 20%",
+        "Followed Agile methodologies to ensure timely and high-quality project delivery"
       ]
-
     },
     {
-      role: "Web Developer",
-      company: "CVR College of Engineering",
-      companylogo: require("./assets/images/cvr.jpeg"),
-      date: "Jan 2019 – May 2019",
+      role: "Software Development Engineer",
+      company: "Temenos",
+      companylogo: require("./assets/images/temenosLogo1.png"),
+      date: "May 2019 – August 2021",
       desc: "",
       descBullets: [
-        "Resolved 50+ bugs in a web app, within a specified timeframe, deploying best debugging and troubleshooting strategies.",
-        "Spearheaded the development and deployment of cross-platform mobile applications using Kony Visualizer and Kony Fabric.",
-        "Produced UI screens for tablet-native application using Kony Visualizer, leading to a 20% improvement in user experience.",
-        "Utilized Git and Jenkins for efficient version control and continuous integration in development workflows.",
-        "Led the design and implementation of Java web services, leveraging Tomcat server, resulting in a 20% improvement in response time.",
-        "Designed, tested and documented APIs using Postman, facilitating seamless collaboration among development teams and reducing integration time by 15%.",
-        "Acquired proficiency in JIRA and Confluence for workflow administration and project documentation, enhancing collaboration efficiency by 40%.",
+        "Developed internationalized, accessible UI components for high-traffic banking applications",
+        "Engineered high-performance microservices for real-time banking using Java (Spring Boot), Kubernetes, and MySQL, improving query performance by 21% and throughput by 35%",
+        "Refactored monolithic applications into microservices using Spring Boot and Kubernetes, enhancing scalability",
+        "Optimized SQL database solutions for secure, high-volume transactions, reducing query latency by 40%",
+        "Worked on financial systems projects, streamlining transactional workflows and ensuring data integrity"
       ]
-    },
+    }
   ]
+
 };
 
 /* Your Open Source Section to View Your Github Pinned Projects
@@ -529,26 +501,108 @@ const bigProjects = {
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "Achievements, Certifications, Award Letters, and Some Cool Stuff that I have done!",
 
   achievementsCards: [
     {
-      title: "Solution Architect Associate",
-      subtitle:
-        "Amazon Web Services Certified",
+      title: "AWS Certified Solutions Architect",
+      subtitle: "Amazon Web Services Certified (Valid until Nov 2028)",
       image: require("./assets/images/aws.jpeg"),
-      imageAlt: "AWS logo",
+      imageAlt: "AWS Logo",
       footerLink: [
         {
           name: "Certification",
           url: "https://www.credly.com/badges/fc7b8c8e-9a33-4778-aabd-fa25b59cf856"
-        },
+        }
       ]
     },
     {
-      title: "Project Management Professional",
-      subtitle:
-        "Google Certified",
+      title: "Developing Back-End Apps with Node.js and Express",
+      subtitle: "IBM Certified",
+      image: require("./assets/images/ibmLogo.png"),
+      imageAlt: "IBM Logo",
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://www.coursera.org/account/accomplishments/verify/RSSYJGZWOCDB"
+        }
+      ]
+    },
+    {
+      title: "Developing Front-End Apps with React",
+      subtitle: "IBM Certified",
+      image: require("./assets/images/ibmLogo.png"),
+      imageAlt: "IBM Logo",
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://www.coursera.org/account/accomplishments/verify/5W3IRE0J4KUT"
+        }
+      ]
+    },
+    {
+      title: "Getting Started with Git and GitHub",
+      subtitle: "IBM Certified",
+      image: require("./assets/images/ibmLogo.png"),
+      imageAlt: "IBM Logo",
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://www.coursera.org/account/accomplishments/verify/LB67U5QA8FGB"
+        }
+      ]
+    },
+    {
+      title: "Introduction to HTML, CSS, & JavaScript",
+      subtitle: "IBM Certified",
+      image: require("./assets/images/ibmLogo.png"),
+      imageAlt: "IBM Logo",
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://www.coursera.org/account/accomplishments/verify/4FIHDZ8GDVFG"
+        }
+      ]
+    },
+    {
+      title: "Introduction to Cloud Computing",
+      subtitle: "IBM Certified",
+      image: require("./assets/images/ibmLogo.png"),
+      imageAlt: "IBM Logo",
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://www.coursera.org/account/accomplishments/verify/FRVXZ9ZT6D2B"
+        }
+      ]
+    },
+    {
+      title: "Introduction to Software Engineering",
+      subtitle: "IBM Certified",
+      image: require("./assets/images/ibmLogo.png"),
+      imageAlt: "IBM Logo",
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://www.coursera.org/account/accomplishments/verify/49NML8A4MHEG"
+        }
+      ]
+    },
+    {
+      title: "Project Initiation: Starting a Successful Project",
+      subtitle: "Google Certified",
+      image: require("./assets/images/googleLogo.png"),
+      imageAlt: "Google Logo",
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://www.coursera.org/account/accomplishments/verify/UGKRJYK9W79A"
+        }
+      ]
+    },
+    {
+      title: "Foundations of Project Management",
+      subtitle: "Google Certified",
       image: require("./assets/images/googleLogo.png"),
       imageAlt: "Google Logo",
       footerLink: [
@@ -558,12 +612,71 @@ const achievementSection = {
         }
       ]
     },
-
     {
-      title: "Digital Banking Application Developer",
+      title: "Generative AI at SAP",
+      subtitle: "SAP Certified",
+      image: require("./assets/images/sapLogo.jpg"),
+      imageAlt: "SAP Logo",
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://open.sap.com/verify/openSAP"
+        }
+      ]
+    },
+    {
+      title: "Front-End Developer Expert",
       subtitle: "Kony Certified",
       image: require("./assets/images/konyLogo.webp"),
       imageAlt: "Kony Logo",
+      footerLink: [
+        {
+          name: "Certification",
+          url: ""
+        }
+      ]
+    },
+    {
+      title: "KONY DBX Developer - Certified Expert",
+      subtitle: "Kony Certified",
+      image: require("./assets/images/konyLogo.webp"),
+      imageAlt: "Kony Logo",
+      footerLink: [
+        {
+          name: "Certification",
+          url: ""
+        }
+      ]
+    },
+    {
+      title: "Kony Certified Developer",
+      subtitle: "Kony Certified",
+      image: require("./assets/images/konyLogo.webp"),
+      imageAlt: "Kony Logo",
+      footerLink: [
+        {
+          name: "Certification",
+          url: ""
+        }
+      ]
+    },
+    {
+      title: "Oracle Database 11g: Program with PL/SQL",
+      subtitle: "Oracle Certified",
+      image: require("./assets/images/oracleLogo.jpg"),
+      imageAlt: "Oracle Logo",
+      footerLink: [
+        {
+          name: "Certification",
+          url: ""
+        }
+      ]
+    },
+    {
+      title: "Oracle Database 12c: SQL Fundamentals",
+      subtitle: "Oracle Certified",
+      image: require("./assets/images/oracleLogo.jpg"),
+      imageAlt: "Oracle Logo",
       footerLink: [
         {
           name: "Certification",
@@ -574,6 +687,7 @@ const achievementSection = {
   ],
   display: true // Set false to hide this section, defaults to true
 };
+
 
 // Blogs Section
 
@@ -635,7 +749,7 @@ const podcastSection = {
 const resumeSection = {
   title: "Resume",
   subtitle: "Feel free to download my resume",
-  url: "https://drive.google.com/file/d/1k2O6z14lTmTNLWh92YCVAOYXu9zhgo1t/view?usp=sharing",
+  url: "https://drive.google.com/file/d/18ArW4Xx-U9El7itpPiI-mwcUiIfaWflG/view?usp=sharing",
   display: true // Set false to hide this section, defaults to true
 };
 
