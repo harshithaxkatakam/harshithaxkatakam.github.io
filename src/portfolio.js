@@ -158,7 +158,7 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "The University of Texas at Dallas",
+      schoolName: "The University of Texas at Dallas - Texas, USA",
       logo: require("./assets/images/utdLogo.png"),
       subHeader: "Master of Business Administration",
       duration: "August 2022 - December 2024",
@@ -169,7 +169,7 @@ const educationInfo = {
       ]
     },
     {
-      schoolName: "The University of Texas at Dallas",
+      schoolName: "The University of Texas at Dallas - Texas, USA",
       logo: require("./assets/images/utdLogo.png"),
       subHeader: "Master of Science in Management Information Systems",
       duration: "August 2022 - December 2024",
@@ -181,7 +181,7 @@ const educationInfo = {
       ]
     },
     {
-      schoolName: "Jawaharlal Nehru Technological University",
+      schoolName: "Jawaharlal Nehru Technological University - Hyderabad, India",
       logo: require("./assets/images/jntuLogo.png"),
       subHeader: "Bachelor of Technology in Computer Science Engineering",
       duration: "August 2016 - August 2020",
