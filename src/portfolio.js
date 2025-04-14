@@ -226,25 +226,24 @@ const techStack = {
 // Work experience section
 
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  display: true,
   experience: [
     {
-      role: "Full Stack Engineer Intern",
-      company: "iPivot",
-      companylogo: require("./assets/images/ipivotLogo.webp"),
-      date: "September 2024 – December 2024",
+      role: "Senior Full Stack Engineer",
+      company: "CDx Diagnostics",
+      companylogo: require("./assets/images/cdx.jpeg"),
+      date: "September 2024 – Present",
       desc: "",
       descBullets: [
-        "Architected an Applicant Tracking System using Next.js, TailwindCSS, improving SEO by 40% and load speed by 30%",
-        "Improved code quality and maintainability by adopting TypeScript, reducing production bugs by 37%",
-        "Engineered reusable UI components using React with Redux, expediting feature development by 20%",
-        "Achieved 95% test coverage with React Testing Library and Jest, ensuring robust and reliable UI components",
-        "Automated CI/CD pipelines using AWS CodePipeline, reducing deployment time by 50%",
-        "Optimized web performance using lazy loading and code splitting, ensuring robust application behavior",
-        "Led troubleshooting efforts to resolve complex production issues, ensuring minimal downtime",
-        "Designed RESTful APIs using Express.js and MongoDB, optimizing queries - increasing data retrieval efficiency by 25%"
+        "Revamped diagnostic platform architecture using React, Next.js, TypeScript, and TailwindCSS, boosting load speed by 40%",
+        "Enhanced frontend performance by 50% through lazy loading, server-side rendering (SSR), and Redux state management",
+        "Delivered accessible, HIPAA-compliant UI components with keyboard navigation, diagnostic filters, and deep-zoom viewing using OpenSeadragon, improving diagnosis speed by 30%",
+        "Led UI testing strategy using Jest and React Testing Library, achieving 95% test coverage and reducing front-end bugs by 35%",
+        "Designed scalable GraphQL APIs and optimized RESTful services in Express.js, reducing query response time from 500ms to 200ms",
+        "Automated CI/CD pipelines using GitHub Actions, Docker, and Kubernetes, cutting deployment failures by 60% and release time by 50%",
+        "Collaborated with QA/dev teams to resolve high-priority bugs, boosting product quality by 25% and reducing post-release issues",
+        "Implemented modular backend services and real-time logistics tracking (barcode scanning, case dispatching, onboarding), improving operational efficiency by 40%"
       ]
-
     },
     {
       role: "Full Stack Engineer",
@@ -253,17 +252,11 @@ const workExperiences = {
       date: "September 2022 – August 2024",
       desc: "",
       descBullets: [
-        "Redesigned and modernized AIMDB’s website, leading to a 25% increase in user engagement",
-        "Built scalable and interactive web features to showcase AI and database projects using Typescript, Express, React, and MongoDB, increasing site traffic by 35%",
-        "Streamlined deployment using AWS Code-Pipeline, Code-Build, and Code-Deploy, improving release efficiency by 40%",
-        "Implemented performance optimization techniques to ensure maximum speed and scalability of the web application",
-        "Collaborated with cross-functional teams to translate business requirements into technical solutions",
-        "Mentored 200+ students in software development & project management, contributing to a 7% rise in class average",
-        "Helped students build capstone projects using React and Express.js, showcasing real-world problem-solving skills",
-        "Led seminars and workshops on the latest advancements in MERN Stack development, catering to students and professionals with diverse backgrounds and international origins",
-        "Conducted code reviews and enforced coding standards to ensure code quality and maintainability",
-        "Implemented unit testing and end-to-end testing frameworks to ensure application reliability and performance",
-        "Attained the highest (5/5) annual Teaching Assistant (TA) performance rating from the supervising professor"
+        "Engineered scalable full-stack SaaS solutions using React.js, Node.js, and Express.js, improving system throughput by 35%",
+        "Built high-throughput distributed backend with Node.js, Python, and PostgreSQL, processing 1M+ records/day and streamlining data ingestion by 50%",
+        "Designed relational schemas with PostgreSQL, optimizing query performance and reducing latency by 20%",
+        "Developed a Python-based performance dashboard with Pandas and Matplotlib, enhancing data visibility and decision-making",
+        "Provided mentorship to 200+ students on full-stack capstone projects, improving project delivery time by 30% and overall code quality"
       ]
     },
     {
@@ -273,15 +266,17 @@ const workExperiences = {
       date: "August 2021 – August 2022",
       desc: "",
       descBullets: [
-        "Directed a team of 5 developers in building a resilient cancer cell diagnosis platform using ReactJS, Node.js, TypeScript, and AWS, improving diagnostic accuracy",
-        "Successfully migrated from .Net to React development environment within a two-month timeframe",
-        "Boosted web performance by 30% through responsive design, lazy loading, and optimizing API calls",
-        "Built and deployed scalable backend services with Node.js and Express.js, ensuring seamless data handling and front-end integration",
-        "Reduced infrastructure costs by 20% through strategic use of AWS S3, Lambda, and CloudFront",
-        "Designed a robust authentication system integrating Azure AD and AWS Cognito, boosting platform security",
-        "Automated deployment processes using Terraform and Jenkins, cutting manual deployment time by 50%",
-        "Enhanced database performance by 40% through query optimization and indexing",
-        "Demonstrated strong collaboration and stakeholder management by working with cross-functional teams to translate business requirements into technical solutions"
+        "Directed a team of 5 engineers to build a high-performance diagnosis platform with React, TypeScript, Node.js, and Express, improving scalability by 30% and reducing delays by 40%",
+        "Built deep-zoom slide viewer using AWS S3 and OpenSeadragon, enabling 1s retrieval of 1,000+ medical slides",
+        "Architected 50+ features such as report builders, patient history, calendars, dashboards, and user management, increasing efficiency by 35%",
+        "Implemented secure RBAC with Azure AD, AWS Cognito, and IAM, reducing unauthorized access by 27%",
+        "Designed RESTful APIs with JWT authentication and Postman-based testing, reducing regression testing time by 40%",
+        "Integrated AWS DynamoDB for diagnosis data and SQL DBs for transactions, cutting retrieval latency by 30%",
+        "Deployed serverless architecture with AWS Lambda and API Gateway, decreasing backend response time by 45%",
+        "Reduced infrastructure costs by 20% by optimizing AWS services and using Serverless Framework",
+        "Collaborated with backend teams for smooth API integration and improved UX, shortening feature cycles by 20%",
+        "Converted complex requirements into scalable modules, improving maintainability and reducing dev cycles by 30%",
+        "Participated in code reviews and architecture decisions, reducing critical bugs by 25%"
       ]
     },
     {
@@ -291,21 +286,19 @@ const workExperiences = {
       date: "May 2019 – August 2021",
       desc: "",
       descBullets: [
-        "Developed document management UI components and microservices for retail banking using Kony Visualizer, Kony Fabric, Core Java and Spring Boot, ensuring secure handling of customer documents",
-        "Achieved 21% improvement in query performance by optimizing MySQL databases",
-        "Containerized microservices using Docker, resulting in reduced deployment time by 40% and improved scalability",
-        "Implemented RESTful APIs for account statement generation, reducing manual reporting time by 40%",
-        "Built 30 cross-platform UI components using Kony Visualizer, delivering consistent user experience across devices",
-        "Utilized Spring Boot and Hibernate frameworks in integrating RESTful APIs into 15+ banking applications",
-        "Automated CI/CD pipelines using Jenkins, improving deployment speed and minimizing downtime",
-        "Identified and resolved 150+ critical UI bugs under strict deadlines, ensuring smooth functionality and user experience",
-        "Collaborated with QA and product teams to conduct end-to-end testing, improving software quality",
-        "Developed a comprehensive dashboard using React, MongoDB, and Express.js to track code coverage and analyze test suites across all teams, enhancing code quality and performance monitoring"
+        "Built reusable UI/UX components using micro-frontend patterns for Kony Marketplace with Figma and JavaScript, improving usability by 50%",
+        "Led development of cross-platform apps using JavaScript and Node.js, supporting 100,000+ users",
+        "Resolved 150+ UI bugs efficiently using strong debugging techniques under strict deadlines",
+        "Engineered microservices for real-time banking apps with Java (Spring Boot), Kubernetes, and MySQL, improving query performance by 21%",
+        "Designed WCAG-compliant, internationalized UIs for high-traffic financial applications",
+        "Integrated OAuth 2.0 and JWT for secure financial transactions",
+        "Automated CI/CD pipelines via Jenkins, reducing deployment time by 40%",
+        "Developed a React-based dashboard with MongoDB and Express.js to monitor code coverage and test suite performance across teams"
       ]
-
-    },
+    }
   ]
 };
+
 
 /* Your Open Source Section to View Your Github Pinned Projects
 To know how to get github key look at readme.md */
