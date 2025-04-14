@@ -80,7 +80,7 @@ function Header() {
           {viewResume && (
             <li>
               <a
-                href="https://drive.google.com/file/d/1biUYmuvAWkAclMWHOOQHS7R3JFkMvZEY/view?usp=sharing"
+                href="https://drive.google.com/file/d/1EZ_0Yrf76-AQRUVxAk4nkuKeBVc4knQB/view?usp=sharing"
                 download="Resume.pdf"
                 className="download-link-button"
                 target="blank"
