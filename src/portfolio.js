@@ -31,7 +31,7 @@ const greeting = {
     emoji("✨ Building future, one line of code at a time!")
   ],
   resumeLink:
-    "https://drive.google.com/file/d/1N3hp_KSyyaSUYkzlOkrvYOh_ovqHNjLf/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1JwK3-Lst0LVmwkTbcP4yOH7woKCEwwES/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -235,14 +235,13 @@ const workExperiences = {
       date: "September 2024 – Present",
       desc: "",
       descBullets: [
-        "Revamped diagnostic platform architecture using React, Next.js, TypeScript, and TailwindCSS, boosting load speed by 40%",
-        "Enhanced frontend performance by 50% through lazy loading, server-side rendering (SSR), and Redux state management",
-        "Delivered accessible, HIPAA-compliant UI components with keyboard navigation, diagnostic filters, and deep-zoom viewing using OpenSeadragon, improving diagnosis speed by 30%",
-        "Led UI testing strategy using Jest and React Testing Library, achieving 95% test coverage and reducing front-end bugs by 35%",
-        "Designed scalable GraphQL APIs and optimized RESTful services in Express.js, reducing query response time from 500ms to 200ms",
-        "Automated CI/CD pipelines using GitHub Actions, Docker, and Kubernetes, cutting deployment failures by 60% and release time by 50%",
-        "Collaborated with QA/dev teams to resolve high-priority bugs, boosting product quality by 25% and reducing post-release issues",
-        "Implemented modular backend services and real-time logistics tracking (barcode scanning, case dispatching, onboarding), improving operational efficiency by 40%"
+        "Revamped the cancer cell diagnostic platform architecture using React, Next.js, TypeScript, and TailwindCSS, boosting load speed by 40%",
+        "Boosted frontend performance by implementing lazy loading, server-side rendering (SSR), and Redux state management techniques",
+        "Delivered modular, WCAG-compliant components with accessible keyboard interactions, live filtering, and real-time image enhancement features (brightness, gamma, contrast) using CSS filters and OpenSeadragon — increasing diagnostic accuracy and usability",
+        "Integrated React Query and GraphQL for efficient data management, enabling fine-grained caching, background syncing, pagination and reduced over-fetching across component trees",
+        "Led UI testing efforts with Jest and React Testing Library, achieving 95%+ test coverage and decreasing frontend bug reports by 50%",
+        "Automated CI/CD pipelines using GitHub Actions, Docker, & Kubernetes, cutting down deployment time and reducing release rollback events",
+        "Collaborated with QA and backend teams to identify and fix critical bugs during staging & production rollout, boosting product quality scores"
       ]
     },
     {
@@ -252,31 +251,29 @@ const workExperiences = {
       date: "September 2022 – August 2024",
       desc: "",
       descBullets: [
-        "Engineered scalable full-stack SaaS solutions using React.js, Node.js, and Express.js, improving system throughput by 35%",
-        "Built high-throughput distributed backend with Node.js, Python, and PostgreSQL, processing 1M+ records/day and streamlining data ingestion by 50%",
-        "Designed relational schemas with PostgreSQL, optimizing query performance and reducing latency by 20%",
-        "Developed a Python-based performance dashboard with Pandas and Matplotlib, enhancing data visibility and decision-making",
-        "Provided mentorship to 200+ students on full-stack capstone projects, improving project delivery time by 30% and overall code quality"
+        "Engineered scalable full-stack analytics web application using React.js, Node.js, & Express.js, serving 500+ monthly users and powering research data analysis across multiple university departments",
+        "Implemented lazy loading, virtual scrolling, and memoization, reducing initial page load time for large datasets by 42% (from ~3.8s to ~2.2s)",
+        "Designed intuitive filtering interfaces, dashboards, and state-driven visualizations by integrating libraries like D3.js and Chart.js to support real-time research analysis and storytelling across large datasets – increasing user engagement",
+        "Built a high throughput distributed backend system with Node.js, Python, and PostgreSQL, processing over 1M records/day and seamlessly supporting multiple ingestion pipelines from third-party data sources – monitored using Prometheus + Grafana",
+        "Integrated API data caching & optimized client-server communication using Axios, reducing API response time & minimizing redundant calls",
+        "Provided technical mentorship to 200+ students across 30+ full-stack capstone projects; project on-time delivery improved from 70% to 92% through structured code reviews, GitHub PR templates, and collaborative debugging sessions"
       ]
     },
     {
-      role: "Senior Full Stack Engineer",
+      role: "Full Stack Engineer",
       company: "iPivot",
       companylogo: require("./assets/images/ipivotLogo.webp"),
       date: "August 2021 – August 2022",
       desc: "",
       descBullets: [
-        "Directed a team of 5 engineers to build a high-performance diagnosis platform with React, TypeScript, Node.js, and Express, improving scalability by 30% and reducing delays by 40%",
-        "Built deep-zoom slide viewer using AWS S3 and OpenSeadragon, enabling 1s retrieval of 1,000+ medical slides",
-        "Architected 50+ features such as report builders, patient history, calendars, dashboards, and user management, increasing efficiency by 35%",
-        "Implemented secure RBAC with Azure AD, AWS Cognito, and IAM, reducing unauthorized access by 27%",
-        "Designed RESTful APIs with JWT authentication and Postman-based testing, reducing regression testing time by 40%",
-        "Integrated AWS DynamoDB for diagnosis data and SQL DBs for transactions, cutting retrieval latency by 30%",
-        "Deployed serverless architecture with AWS Lambda and API Gateway, decreasing backend response time by 45%",
-        "Reduced infrastructure costs by 20% by optimizing AWS services and using Serverless Framework",
-        "Collaborated with backend teams for smooth API integration and improved UX, shortening feature cycles by 20%",
-        "Converted complex requirements into scalable modules, improving maintainability and reducing dev cycles by 30%",
-        "Participated in code reviews and architecture decisions, reducing critical bugs by 25%"
+        "Directed a cross-functional team of 5 engineers to deliver a high-performance work organization management platform, using React, TypeScript, Node.js, and Express, scaling the system to support over 200 active users/month",
+        "Architected 20+ core features – including an interactive diagnosis report builder, patient history viewer, filterable dashboards and calendar modules — resulting in a 45% boost in operational workflow efficiency",
+        "Implemented Role-Based Access Control (RBAC) leveraging Azure AD, AWS Cognito, and IAM, cutting unauthorized access incidents",
+        "Developed secure RESTful APIs with JWT-based authentication, integrating Postman tests into CI pipelines, reducing regression bug discovery time by 25% and improving test coverage to 90%",
+        "Integrated AWS DynamoDB to handle nested diagnosis data, and SQL DBs for transactional records, improving data retrieval performance",
+        "Deployed serverless architecture with AWS Lambda and API Gateway, decreasing backend response times by 45% and improving scalability",
+        "Reduced monthly AWS infrastructure costs by 20%, refactoring EC2 instances, optimizing Lambda invocations, & managing storage with S3",
+        "Actively contributed to code reviews and architecture discussions, reducing critical bugs & improving long-term stability of core services"
       ]
     },
     {
@@ -286,14 +283,13 @@ const workExperiences = {
       date: "May 2019 – August 2021",
       desc: "",
       descBullets: [
-        "Built reusable UI/UX components using micro-frontend patterns for Kony Marketplace with Figma and JavaScript, improving usability by 50%",
-        "Led development of cross-platform apps using JavaScript and Node.js, supporting 100,000+ users",
-        "Resolved 150+ UI bugs efficiently using strong debugging techniques under strict deadlines",
-        "Engineered microservices for real-time banking apps with Java (Spring Boot), Kubernetes, and MySQL, improving query performance by 21%",
-        "Designed WCAG-compliant, internationalized UIs for high-traffic financial applications",
-        "Integrated OAuth 2.0 and JWT for secure financial transactions",
-        "Automated CI/CD pipelines via Jenkins, reducing deployment time by 40%",
-        "Developed a React-based dashboard with MongoDB and Express.js to monitor code coverage and test suite performance across teams"
+        "Devised reusable cross-platform UI/UX components using JavaScript, micro-frontend patterns and Figma prototypes, improving component reusability and reducing UI rework",
+        "Championed the development & deployment of enterprise-grade applications used by 100,000+ global banking users, utilizing JavaScript, Node.js, and Kony Visualizer for mobile/web parity",
+        "Engineered performance-optimized microservices for real-time banking using Java (Spring Boot) and integrated with frontend UIs using OAuth 2.0 and JWT-based authentication, securing high-value transactional data",
+        "Refactored & normalized MySQL schemas, reducing query latency & resulting in improved transaction consistency across banking workflows",
+        "Resolved frontend issues through proactive debugging, regression testing, & cross-browser compatibility fixes, improving product stability",
+        "Ensured WCAG 2.1 compliance and full internationalization (i18n) support across client-facing UIs, expanding product accessibility to global users in 10+ locales",
+        "Automated CI/CD pipelines using Jenkins, improving build reliability and cutting average deployment time from 45 minutes to 27 minutes"
       ]
     }
   ]
@@ -754,7 +750,7 @@ const podcastSection = {
 const resumeSection = {
   title: "Resume",
   subtitle: "Feel free to download my resume",
-  url: "https://drive.google.com/file/d/1N3hp_KSyyaSUYkzlOkrvYOh_ovqHNjLf/view?usp=sharing",
+  url: "https://drive.google.com/file/d/1JwK3-Lst0LVmwkTbcP4yOH7woKCEwwES/view?usp=sharing",
   display: true // Set false to hide this section, defaults to true
 };
 
