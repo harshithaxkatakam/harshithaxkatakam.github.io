@@ -61,10 +61,6 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
       skillName: "html-5",
       fontAwesomeClassname: "fab fa-html5"
     },
@@ -93,6 +89,14 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-aws"
     },
     {
+      skillName: "java",
+      fontAwesomeClassname: "fab fa-java"
+    },
+    {
+      skillName: "python",
+      fontAwesomeClassname: "fab fa-python"
+    },
+    {
       skillName: "docker",
       fontAwesomeClassname: "fab fa-docker"
     },
@@ -103,10 +107,6 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "jenkins",
       fontAwesomeClassname: "fab fa-jenkins"
-    },
-    {
-      skillName: "java",
-      fontAwesomeClassname: "fab fa-java"
     },
     // {
     //   skillName: "Jira",
@@ -757,7 +757,7 @@ const resumeSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
+    "Discuss a project or just want to say Hi? My Inbox is open for all.",
   number: "(+1) 682-373-3508",
   email_address: "harshithaxkatakam@gmail.com"
 };

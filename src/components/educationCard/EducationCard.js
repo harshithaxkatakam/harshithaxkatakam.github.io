@@ -1,21 +1,25 @@
-import React, {createRef, useContext} from "react";
-import {Fade, Slide} from "react-reveal";
+import React, { createRef, useContext } from "react";
+import { Fade, Slide } from "react-reveal";
 import "./EducationCard.scss";
 import StyleContext from "../../contexts/StyleContext";
 
-export default function EducationCard({school}) {
+export default function EducationCard({ school }) {
   const imgRef = createRef();
+  const { isDark } = useContext(StyleContext);
 
-  const GetDescBullets = ({descBullets}) => {
+  const GetDescBullets = ({ descBullets }) => {
     return descBullets
       ? descBullets.map((item, i) => (
-          <li key={i} className="subTitle">
-            {item}
-          </li>
-        ))
+        <li key={i} className={
+          isDark
+            ? "dark-mode"
+            : "subTitle"
+        } >
+          {item}
+        </li>
+      ))
       : null;
   };
-  const {isDark} = useContext(StyleContext);
 
   if (!school.logo)
     console.error(`Image of ${school.name} is missing in education section`);
@@ -35,10 +39,10 @@ export default function EducationCard({school}) {
             </div>
           )}
           <div className="education-card-right">
-            <h5 className="education-text-school">{school.schoolName}</h5>
+            <h3 className="education-text-school">{school.schoolName}</h3>
 
             <div className="education-text-details">
-              <h5
+              <h4
                 className={
                   isDark
                     ? "dark-mode education-text-subHeader"
@@ -46,11 +50,10 @@ export default function EducationCard({school}) {
                 }
               >
                 {school.subHeader}
-              </h5>
+              </h4>
               <p
-                className={`${
-                  isDark ? "dark-mode" : ""
-                } education-text-duration`}
+                className={`${isDark ? "dark-mode" : ""
+                  } education-text-duration`}
               >
                 {school.duration}
               </p>

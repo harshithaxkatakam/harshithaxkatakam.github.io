@@ -14,7 +14,7 @@ export default function StackProgress() {
           {/* First Container: Core Expertise + Image */}
           <div className="skills-top">
             <div className="skills-bar core-expertise">
-              <h1 className="skills-heading">Core Expertise</h1>
+              <h2 className="skills-heading">Core Expertise</h2>
               {techStack.coreExpertise.map((exp, i) => {
                 return (
                   <div key={i} className="skill">
