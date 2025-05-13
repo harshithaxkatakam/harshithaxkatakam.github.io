@@ -31,7 +31,7 @@ const greeting = {
     emoji("✨ Building future, one line of code at a time!")
   ],
   resumeLink:
-    "https://drive.google.com/file/d/1JwK3-Lst0LVmwkTbcP4yOH7woKCEwwES/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/15Enj9gLiPGfGGP8WLuGj1rObAvM-g8pB/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -49,11 +49,14 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "Crafting seamless digital experiences with cutting-edge technology.",
+  subTitle: "Building scalable, secure, and cloud-native applications with modern full-stack technologies.",
   skills: [
-    emoji("⚡ Expert in ReactJS with a strong background in building dynamic and efficient UI."),
-    emoji("⚡ Proven ability to lead product development and manage projects from concept to completion, demonstrating exceptional organizational and strategic planning skills."),
-    emoji("⚡ Versatile Full Stack Developer, with a focus on creating robust web applications. ")
+    emoji("⚡ Develop full-stack applications using Java, Spring Boot, ReactJS, and Node.js with a strong focus on performance and maintainability."),
+    emoji("⚡ Design and deploy scalable microservices and RESTful APIs across cloud platforms like AWS and Azure."),
+    emoji("⚡ Automate CI/CD pipelines using GitHub Actions, Jenkins, Docker, and Kubernetes for streamlined, production-ready deployments."),
+    emoji("⚡ Implement enterprise-grade authentication, RBAC, and secure data communication using OAuth 2.0, JWT, and Azure AD."),
+    emoji("⚡ Lead frontend architecture and design, delivering highly interactive and accessible UIs with React, Next.js, Redux, and TypeScript."),
+    emoji("⚡ Monitor, optimize, and troubleshoot distributed systems using tools like Azure Monitor, Prometheus, and Grafana.")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -230,18 +233,20 @@ const workExperiences = {
   experience: [
     {
       role: "Senior Full Stack Engineer",
-      company: "CDx Diagnostics",
+      company: "CDX Diagnostics",
       companylogo: require("./assets/images/cdx.jpeg"),
-      date: "September 2024 – Present",
+      date: "May 2023 – Present",
       desc: "",
       descBullets: [
-        "Revamped the cancer cell diagnostic platform architecture using React, Next.js, TypeScript, and TailwindCSS, boosting load speed by 40%",
-        "Boosted frontend performance by implementing lazy loading, server-side rendering (SSR), and Redux state management techniques",
-        "Delivered modular, WCAG-compliant components with accessible keyboard interactions, live filtering, and real-time image enhancement features (brightness, gamma, contrast) using CSS filters and OpenSeadragon — increasing diagnostic accuracy and usability",
-        "Integrated React Query and GraphQL for efficient data management, enabling fine-grained caching, background syncing, pagination and reduced over-fetching across component trees",
-        "Led UI testing efforts with Jest and React Testing Library, achieving 95%+ test coverage and decreasing frontend bug reports by 50%",
-        "Automated CI/CD pipelines using GitHub Actions, Docker, & Kubernetes, cutting down deployment time and reducing release rollback events",
-        "Collaborated with QA and backend teams to identify and fix critical bugs during staging & production rollout, boosting product quality scores"
+        "Led technical architecture of an AI-powered diagnostic platform using React, Next.js, TypeScript, and TailwindCSS, boosting load speed by 40%",
+        "Integrated Java-based microservices via REST APIs and GraphQL, reducing API response time and enhancing backend scalability",
+        "Implemented domain-driven design with Spring Boot and Spring Security, strengthening application security and maintainability",
+        "Built CI/CD pipelines using Jenkins and GitHub Actions; deployed Dockerized Spring Boot apps to Azure Kubernetes Service (AKS)",
+        "Configured Azure Monitor and Application Insights for performance observability and issue resolution",
+        "Enhanced data caching using React Query and Axios, reducing over-fetching and API load",
+        "Achieved 95%+ frontend test coverage with Jest and React Testing Library, reducing regression defects",
+        "Improved patient diagnostic accuracy with image manipulation tools using OpenSeadragon and CSS filters",
+        "Collaborated cross-functionally to align frontend/backend implementations with enterprise health compliance (HIPAA, HL7, FHIR)"
       ]
     },
     {
@@ -261,19 +266,19 @@ const workExperiences = {
     },
     {
       role: "Full Stack Engineer",
-      company: "iPivot",
-      companylogo: require("./assets/images/ipivotLogo.webp"),
+      company: "CDX Diagnostics",
+      companylogo: require("./assets/images/cdx.jpeg"),
       date: "August 2021 – August 2022",
       desc: "",
       descBullets: [
-        "Directed a cross-functional team of 5 engineers to deliver a high-performance work organization management platform, using React, TypeScript, Node.js, and Express, scaling the system to support over 200 active users/month",
-        "Architected 20+ core features – including an interactive diagnosis report builder, patient history viewer, filterable dashboards and calendar modules — resulting in a 45% boost in operational workflow efficiency",
-        "Implemented Role-Based Access Control (RBAC) leveraging Azure AD, AWS Cognito, and IAM, cutting unauthorized access incidents",
-        "Developed secure RESTful APIs with JWT-based authentication, integrating Postman tests into CI pipelines, reducing regression bug discovery time by 25% and improving test coverage to 90%",
-        "Integrated AWS DynamoDB to handle nested diagnosis data, and SQL DBs for transactional records, improving data retrieval performance",
-        "Deployed serverless architecture with AWS Lambda and API Gateway, decreasing backend response times by 45% and improving scalability",
-        "Reduced monthly AWS infrastructure costs by 20%, refactoring EC2 instances, optimizing Lambda invocations, & managing storage with S3",
-        "Actively contributed to code reviews and architecture discussions, reducing critical bugs & improving long-term stability of core services"
+        "Built a secure work organization platform using React, TypeScript, Java (Spring Boot), Node.js, and Express, supporting 200+ users",
+        "Developed 20+ backend features with JWT-based secure APIs and integrated MongoDB for data persistence",
+        "Designed CI/CD workflows with GitHub Actions and Docker, automating tests and deployments to Azure AKS",
+        "Implemented RBAC using Azure AD and AWS Cognito, reducing unauthorized access incidents",
+        "Optimized AWS infrastructure with Lambda, API Gateway, and DynamoDB, improving scalability and backend response time",
+        "Improved database performance using PostgreSQL and DynamoDB, enabling faster query and data access",
+        "Achieved 90%+ test coverage using Jest and led TDD initiatives to minimize post-release bugs",
+        "Participated in architecture design and code reviews, enhancing system stability and scalability"
       ]
     },
     {
@@ -283,13 +288,13 @@ const workExperiences = {
       date: "May 2019 – August 2021",
       desc: "",
       descBullets: [
-        "Devised reusable cross-platform UI/UX components using JavaScript, micro-frontend patterns and Figma prototypes, improving component reusability and reducing UI rework",
-        "Championed the development & deployment of enterprise-grade applications used by 100,000+ global banking users, utilizing JavaScript, Node.js, and Kony Visualizer for mobile/web parity",
-        "Engineered performance-optimized microservices for real-time banking using Java (Spring Boot) and integrated with frontend UIs using OAuth 2.0 and JWT-based authentication, securing high-value transactional data",
-        "Refactored & normalized MySQL schemas, reducing query latency & resulting in improved transaction consistency across banking workflows",
-        "Resolved frontend issues through proactive debugging, regression testing, & cross-browser compatibility fixes, improving product stability",
-        "Ensured WCAG 2.1 compliance and full internationalization (i18n) support across client-facing UIs, expanding product accessibility to global users in 10+ locales",
-        "Automated CI/CD pipelines using Jenkins, improving build reliability and cutting average deployment time from 45 minutes to 27 minutes"
+        "Developed enterprise-grade banking applications using React, JavaScript, and Spring Boot for 100,000+ global users",
+        "Built and secured RESTful APIs using Spring Boot, OAuth 2.0, and JWT authentication for high-value transactional data",
+        "Improved UI/UX accessibility through WCAG 2.1 compliance and full internationalization (i18n)",
+        "Reduced API latency by refactoring MySQL schemas and optimizing backend logic",
+        "Automated CI/CD pipelines using Jenkins, reducing deployment time by over 40%",
+        "Resolved frontend bugs via proactive debugging and implemented responsive design across multiple platforms",
+        "Implemented modular frontend architecture with React Hooks and Redux, improving codebase reusability"
       ]
     }
   ]
@@ -750,7 +755,7 @@ const podcastSection = {
 const resumeSection = {
   title: "Resume",
   subtitle: "Feel free to download my resume",
-  url: "https://drive.google.com/file/d/1JwK3-Lst0LVmwkTbcP4yOH7woKCEwwES/view?usp=sharing",
+  url: "https://drive.google.com/file/d/15Enj9gLiPGfGGP8WLuGj1rObAvM-g8pB/view?usp=sharing",
   display: true // Set false to hide this section, defaults to true
 };
 
