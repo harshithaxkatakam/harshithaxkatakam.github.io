@@ -137,7 +137,7 @@ const greeting = {
   /* Your Summary And Greeting Section */
   title: "Hi all I'm Harshitha",
   subTitle: emoji("A passionate Full Stack Software Developer 🚀"),
-  resumeLink: "https://drive.google.com/file/d/15Enj9gLiPGfGGP8WLuGj1rObAvM-g8pB/view?usp=sharing"
+  resumeLink: "https://drive.google.com/file/d/1YbpGE5Ia1X2cbVUGa4KAFSgXPgJNklSq/view?usp=sharing"
 };
 
 const socialMediaLinks = {
