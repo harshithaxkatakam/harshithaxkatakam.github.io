@@ -31,7 +31,7 @@ const greeting = {
     emoji("✨ Building future, one line of code at a time!")
   ],
   resumeLink:
-    "https://drive.google.com/file/d/1YbpGE5Ia1X2cbVUGa4KAFSgXPgJNklSq/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1MKejgUJ1UM1GbScdFy_9QfATH8ie5DdN/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -755,7 +755,7 @@ const podcastSection = {
 const resumeSection = {
   title: "Resume",
   subtitle: "Feel free to download my resume",
-  url: "https://drive.google.com/file/d/1YbpGE5Ia1X2cbVUGa4KAFSgXPgJNklSq/view?usp=sharing",
+  url: "https://drive.google.com/file/d/1MKejgUJ1UM1GbScdFy_9QfATH8ie5DdN/view?usp=sharing",
   display: true // Set false to hide this section, defaults to true
 };
 
